@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infe"
+version = "0.1.1"
+authors = [
+  { name="Prince Infant A", email="princeinfant3@gmail.com" },
+ ]
+description = "A comprehensive Python math utility library for interviews and competitive programming."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PrinceInfant/infe"
+"Bug Tracker" = "https://github.com/PrinceInfant/infe/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["infe*"]
